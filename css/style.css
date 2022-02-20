@@ -1,3 +1,11 @@
+.example_images{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  width: 60%;
+  overflow: hidden;
+}
+
 body{
   margin:0;
   padding:0;
