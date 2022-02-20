@@ -6,13 +6,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="shortcut icon" href="https://i.imgur.com/yFg0fCF.gif">
 	<style>
-		.example_images {
-			position: absolute;
-			top: 8px;
-			right: 16px;
-			width: 60%;
-		}
-
 		body {
 			margin: 0;
 			padding: 0;
@@ -24,6 +17,14 @@
 			margin-bottom: -10000px;
 			float: left;
 			width: 100%;
+		}
+
+		.info_header_table {
+			border: 0px solid;
+		}
+
+		.info_header_td {
+			border: 0px solid;
 		}
 
 		table {
@@ -134,26 +135,31 @@
 
 					<!-- INTRODUCTION -->
 					<div class="info_header">
-						<h1>Oxygen Library<br>Documentation</h1>
-            <p>
-              Oxygen is a feature-packed graphical library for the CE C
-              <br>
-              Toolchain. with its many features; Oxygen brings your
-              <br>
-              programming
-              skills to the next level while improving your
-              <br>
-              graphical interfaces and much more.
-              </p>
-            
-            <marquee class="example_images" behavior="alternate">
-              <img src="https://i.imgur.com/sqW6fB6.gif" ></img>
-              <img src="https://i.imgur.com/wXRc4y9.png" ></img>
-              <img src="https://i.imgur.com/P3u2YA0.png" ></img>
-              <img src="https://i.imgur.com/Mkf7S94.png" ></img>
-            </marquee>
-
-            
+						<table class="info_header_table">
+							<td class="info_header_td">
+								<center>
+									<h1>Oxygen Library<br>Documentation</h1>
+                <p>
+                Oxygen is a feature-packed graphical library for the CE C
+                <br>
+                Toolchain. with its many features; Oxygen brings your
+                <br>
+                programming
+                skills to the next level while improving your
+                <br>
+                graphical interfaces and much more.
+                </p>
+                </center>
+              </td>
+              <td class="info_header_td" style="vertical-align: bottom; width: 60%;">
+                <marquee class="example_images" behavior="alternate">
+                  <img src="https://i.imgur.com/sqW6fB6.gif" ></img>
+                  <img src="https://i.imgur.com/wXRc4y9.png" ></img>
+                  <img src="https://i.imgur.com/P3u2YA0.png" ></img>
+                  <img src="https://i.imgur.com/Mkf7S94.png" ></img>
+                </marquee>
+              </td>
+            </table>
           </div>
 					<br>
             
@@ -383,6 +389,7 @@
                   <th>Returns</th>
               </tr>
             </table>
+            <br>
               </div>
           </div>
       </main>
